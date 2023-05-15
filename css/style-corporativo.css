@@ -1,0 +1,81 @@
+
+@font-face {
+    font-family: "Monthoers";
+    src: url("../fonts/Monthoers.ttf");    
+}
+
+@font-face {
+    font-family: "SaintCarell" ;
+    src: url("../fonts/SaintCarell_PERSONAL_USE_ONLY.otf");
+}
+
+@font-face {
+    font-family: "CoolveticaCondensed";
+    src: url("../fonts/coolvetica\ condensed\ rg.otf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Tilt+Prism&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Selector universal */
+*{
+    margin: 0;
+    padding: 0;
+ }
+
+ .card {
+    background-color: rgba(98, 55, 139, 0.945);
+    justify-content: center;
+    color: white;
+}
+
+.card-title{
+    flex-grow: 1;
+    color: rgb(252, 252, 253);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
+}
+
+.navbar-brand{       /* Color y fuente de titulo header */
+    color: rgb(163, 91, 231) ;
+    font-family: "SaintCarell";
+ }
+
+ header {   /* Color fondo header */
+    background-color: blueviolet;
+ }
+
+main{        /* color fondo de main */
+    background-color: rgba(18, 8, 110, 0.521);
+}
+
+footer {     /* color fondo de footer */
+    background-color: black;
+
+}
+
+h2 {
+    background-color: rgba(42, 30, 44, 0.897);
+    font-family: "CoolveticaCondensed" ;
+    color: rgb(246, 247, 248);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.747);
+}
+
+p {
+    font-size: x-large;
+    font-family: "CoolveticaCondensed" ;
+}
+
+h3 {
+    background-color: rgba(42, 30, 44, 0.897);
+    color: rgba(180, 176, 184, 0.986);
+    font-family: "CoolveticaCondensed" ;
+}
+
+
+@media screen and (max-width: 750px) {
+    .formulario {
+        width: 80%! important; }
+}
+
+

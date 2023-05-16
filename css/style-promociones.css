@@ -34,6 +34,11 @@
     background-color: rgba(18, 8, 110, 0.521);
  }
  
+ .navbar-brand{       /* Color y fuente de titulo header */
+    color: rgb(163, 91, 231) ;
+    font-family: "SaintCarell";
+ }
+
 .promos {
     background-color: rgba(23, 95, 129, 0.5);
 } 
